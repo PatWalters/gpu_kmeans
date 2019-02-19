@@ -5,7 +5,6 @@ import pandas as pd
 import cudf
 from cuml import KMeans
 from cuml import PCA as cumlPCA
-from cuml import KMeans
 
 
 def np2cudf(arr):
